@@ -1,0 +1,98 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.ribbon{
+	display: flex;
+	align-items: center;
+	gap: 500px;
+	color: #3A3A3A;
+	margin-top: 90px;
+}
+.ribbon-title{
+	font-size: 24px;
+	margin-top: 0px;
+	margin-left: 120px;
+	margin-bottom: 0px;
+}
+.navbar{
+	margin-top: 0px;
+	margin-right: 120px;
+}
+.navbar ul{
+	display: flex;
+	padding: 0px;
+	gap: 34px;
+	list-style-type: none;
+	align-items: center;
+	margin: 0px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #3A3A3A;
+}
+.banner{
+	display: flex;
+	gap: 133px;
+}
+.start{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-top: 145px;
+	margin-left: 120px;
+}
+.start h1{
+	font-size: 52px;
+	font-weight: 700;
+	color: #3A3A3A;
+	margin: 0px;
+}
+.start p{
+	font-size: 16px;
+	color: #3A3A3A;
+	width: 505px;
+}
+.start button{
+	width: 200px;
+	height: 45px;
+	display: flex;
+	gap: 8px;
+	padding: 10px 24px;
+	align-items: center;
+	justify-content: center;
+	background-color: #E02C6D;
+	border: 0px solid #E02C6D;
+	border-radius: 41px;
+	}
+.start button p{
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.start button fa-arrow{
+	color: #FFFFFF;
+	width: 24px;
+	height: 24px;
+}
+.camera img{
+	width: 440px;
+	height: 415px;
+	margin-right: 165px;
+	margin-top: 80px;
+}
+.sites{
+	display: flex;
+	padding: 35px 60px;
+	gap: 60px;
+	margin-top: 100px;
+	margin-left: 165px;
+	margin-right: 165px;
+
+}
